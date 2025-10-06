@@ -11,7 +11,5 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
 
     bondPrice = pv_coupons + pv_face
     return bondPrice
-print(getBondPrice(0.03, 2000000, 0.04, 10, 1))
-print(getBondPrice(0.03, 2000000, 0.04, 10, 2))
 
 
